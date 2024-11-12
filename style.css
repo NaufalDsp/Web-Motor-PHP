@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+main {
+  overflow: hidden;
+}
+
+/* ALL THINGS */
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container2{
+  background-image: url("./images/background4.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   /* width: 100vw; */
+   min-height: 100vh;
+   margin-bottom: -5rem;
+   padding-bottom: 5rem;
+}
+
+span {
+  color: #ff9f1c;
+}
+
+/* ALL THINGS */
+
+/* HOME */
+.home {
+  background-image: url("./images/background4.jpg");
+  background-size: cover;
+}
+
+.text-left {
+  color: rgb(242, 175, 175) 909;
+  flex: 0.9;
+}
+
+.image-container1 {
+  margin-left: auto;
+}
+
+/* HOME */
+
+/* PRODUCT */
+.product {
+  background-image: url("./images/background5.jpg");
+  background-size: cover;
+}
+
+/* PRODUCT */
+
+/* ABOUT */
+.about {
+  background-image: url("./images/background5.jpg");
+  background-size: cover;
+}
+
+.text-right {
+  color: #fff;
+  flex: 0.9;
+}
+
+.image-container2 {
+  margin-right: auto;
+}
+
+/* CREDIT */
+.credit {
+  background-image: url("images/background7.jpg");
+  background-size: cover;
+}
+
+/* CREDIT */
+
+/* FORMULIR */
+.formulir {
+  background-image: url("images/background2.jpg");
+  overflow-x: hidden;
+  background-size: cover;
+}
+/* FORMULIR */
+
+/* CONTACT */
+.contact {
+  background-image: url("images/background3.jpg");
+  background-size: cover;
+}
+
+.terima {
+  background-image: url("images/background6.jpg");
+  background-size: cover;
+  /* width: 100vw; */
+  min-height: 100vh;
+}
+
+/* CONTACT */
+
+.terima {
+  background-color: rgb(64, 55, 55);
+  color: white;
+  padding-bottom: 10rem;
+  margin-bottom: -5rem;
+  button{
+    margin-bottom: 5rem;
+  }
+}
+.terima img {
+  max-width: 100px;
+}
+.terima .table th, .terima .table td {
+  color: white;
+}
+.terima .table thead th {
+  background-color: #060606;
+}
